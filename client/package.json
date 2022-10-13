@@ -43,7 +43,8 @@
     "start_dev": "./node_modules/.bin/env-cmd -f .env react-scripts start",
     "build_dev": "./node_modules/.bin/env-cmd -f .env react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postinstall": "semantic-ui-css-patch"
   },
   "eslintConfig": {
     "extends": "react-app"
