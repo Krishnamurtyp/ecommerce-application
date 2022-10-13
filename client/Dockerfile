@@ -10,6 +10,7 @@ WORKDIR /usr/src/app
 COPY ./client/package*.json ./
 
 RUN npm install
+RUN npm run postinstall
 
 # Bundle app source
 COPY . .
